@@ -1,0 +1,17 @@
+C:\Users\Shubham\source\EmployeePayrollService\EmployeePayrollTestforSQLServerDB\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\Shubham\source\EmployeePayrollService\EmployeePayrollTestforSQLServerDB\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\Shubham\source\EmployeePayrollService\EmployeePayrollTestforSQLServerDB\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\Shubham\source\EmployeePayrollService\EmployeePayrollTestforSQLServerDB\bin\Debug\EmployeePayrollTestforSQLServerDB.dll
+C:\Users\Shubham\source\EmployeePayrollService\EmployeePayrollTestforSQLServerDB\bin\Debug\EmployeePayrollTestforSQLServerDB.pdb
+C:\Users\Shubham\source\EmployeePayrollService\EmployeePayrollTestforSQLServerDB\bin\Debug\EmployeePayrollService.exe
+C:\Users\Shubham\source\EmployeePayrollService\EmployeePayrollTestforSQLServerDB\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\Shubham\source\EmployeePayrollService\EmployeePayrollTestforSQLServerDB\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\Shubham\source\EmployeePayrollService\EmployeePayrollTestforSQLServerDB\bin\Debug\EmployeePayrollService.pdb
+C:\Users\Shubham\source\EmployeePayrollService\EmployeePayrollTestforSQLServerDB\bin\Debug\EmployeePayrollService.exe.config
+C:\Users\Shubham\source\EmployeePayrollService\EmployeePayrollTestforSQLServerDB\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\Shubham\source\EmployeePayrollService\EmployeePayrollTestforSQLServerDB\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\Shubham\source\EmployeePayrollService\EmployeePayrollTestforSQLServerDB\obj\Debug\EmployeePayrollTestforSQLServerDB.csprojAssemblyReference.cache
+C:\Users\Shubham\source\EmployeePayrollService\EmployeePayrollTestforSQLServerDB\obj\Debug\EmployeePayrollTestforSQLServerDB.csproj.CoreCompileInputs.cache
+C:\Users\Shubham\source\EmployeePayrollService\EmployeePayrollTestforSQLServerDB\obj\Debug\EmployeePayrollTestforSQLServerDB.csproj.CopyComplete
+C:\Users\Shubham\source\EmployeePayrollService\EmployeePayrollTestforSQLServerDB\obj\Debug\EmployeePayrollTestforSQLServerDB.dll
+C:\Users\Shubham\source\EmployeePayrollService\EmployeePayrollTestforSQLServerDB\obj\Debug\EmployeePayrollTestforSQLServerDB.pdb
