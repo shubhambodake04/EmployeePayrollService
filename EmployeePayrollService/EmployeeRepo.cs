@@ -126,7 +126,39 @@ namespace EmployeePayrollService
                 Console.WriteLine(e.Message);
             }
         }
-
+        public void RetreiveData()
+        {
+            try
+            {
+                EmployeeModel employeeModel = new EmployeeModel();
+                using (connection)
+                {
+                    string query = "select * from employee_payroll where gender='M'";
+                    SqlCommand command = new SqlCommand(query, connection);
+                    connection.Open();
+                    SqlDataReader reader = command.ExecuteReader();
+                    if (reader.HasRows)
+                    {
+                        while (reader.Read())
+                        {
+                            
+                            employeeModel.EmployeeName = reader.GetString(1);
+                            employeeModel.Gender = Convert.ToChar(reader.GetString(4));
+                            Console.WriteLine("Employe Name: " + employeeModel.EmployeeName + " Gender: " + employeeModel.Gender);
+                            Console.WriteLine("\n");
+                        }
+                    }
+                    else
+                    {
+                        Console.WriteLine("No Data Found");
+                    }
+                }
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+            }
+        }
     }
 
 }

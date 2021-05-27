@@ -25,7 +25,8 @@ namespace EmployeePayrollService
             if (repo.AddEmployee(employee))
                Console.WriteLine("Records added successfully");*/
             //repo.GetAllEmployee();
-            repo.UpdateSalary();
+            //repo.UpdateSalary();
+            repo.RetreiveData();
             Console.ReadKey();
         }
 
