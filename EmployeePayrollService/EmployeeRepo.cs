@@ -99,6 +99,34 @@ namespace EmployeePayrollService
             return false;
         }
 
+        public void UpdateSalary()
+        {
+            
+            try
+            {
+                
+                using (connection)
+                {
+                    string query = "update employee_payroll set basic_pay=300000.0 where name='Mark'";
+                    SqlCommand command = new SqlCommand(query, connection);
+                    connection.Open();
+                    var result = command.ExecuteNonQuery();
+                    if (result != 0)
+                    {
+                        Console.WriteLine("Salary Updated");
+                    }
+                    else
+                    {
+                        Console.WriteLine("Salary not Updated");
+                    }
+                }
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+            }
+        }
+
     }
 
 }

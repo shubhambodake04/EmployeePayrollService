@@ -5,3 +5,10 @@ C:\Users\Shubham\source\EmployeePayrollService\EmployeePayrollService\obj\Debug\
 C:\Users\Shubham\source\EmployeePayrollService\EmployeePayrollService\obj\Debug\EmployeePayrollService.csproj.CoreCompileInputs.cache
 C:\Users\Shubham\source\EmployeePayrollService\EmployeePayrollService\obj\Debug\EmployeePayrollService.exe
 C:\Users\Shubham\source\EmployeePayrollService\EmployeePayrollService\obj\Debug\EmployeePayrollService.pdb
+C:\Users\Shubham\source\EmployeePayrollServiceDB\EmployeePayrollService\bin\Debug\EmployeePayrollService.exe.config
+C:\Users\Shubham\source\EmployeePayrollServiceDB\EmployeePayrollService\bin\Debug\EmployeePayrollService.exe
+C:\Users\Shubham\source\EmployeePayrollServiceDB\EmployeePayrollService\bin\Debug\EmployeePayrollService.pdb
+C:\Users\Shubham\source\EmployeePayrollServiceDB\EmployeePayrollService\obj\Debug\EmployeePayrollService.csprojAssemblyReference.cache
+C:\Users\Shubham\source\EmployeePayrollServiceDB\EmployeePayrollService\obj\Debug\EmployeePayrollService.csproj.CoreCompileInputs.cache
+C:\Users\Shubham\source\EmployeePayrollServiceDB\EmployeePayrollService\obj\Debug\EmployeePayrollService.exe
+C:\Users\Shubham\source\EmployeePayrollServiceDB\EmployeePayrollService\obj\Debug\EmployeePayrollService.pdb

@@ -13,7 +13,7 @@ namespace EmployeePayrollService
             Console.WriteLine("Welcome to Employee Payroll!");
             EmployeeRepo repo = new EmployeeRepo();
             EmployeeModel employee = new EmployeeModel();
-            employee.EmployeeName = "Mohan";
+            /*employee.EmployeeName = "Mohan";
             employee.Department = "Tech1";
            employee.PhoneNumber = "6302907678";
             employee.Address = "02-Patna";
@@ -23,8 +23,9 @@ namespace EmployeePayrollService
             employee.StartDate = Convert.ToDateTime("2020-11-03");
 
             if (repo.AddEmployee(employee))
-               Console.WriteLine("Records added successfully");
+               Console.WriteLine("Records added successfully");*/
             //repo.GetAllEmployee();
+            repo.UpdateSalary();
             Console.ReadKey();
         }
 
