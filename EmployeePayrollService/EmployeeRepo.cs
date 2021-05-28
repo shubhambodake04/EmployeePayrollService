@@ -159,6 +159,50 @@ namespace EmployeePayrollService
                 Console.WriteLine(e.Message);
             }
         }
+        public void getSum()
+        {
+            
+            try
+            {
+                EmployeeModel employeeModel = new EmployeeModel();
+                using (this.connection)
+                {
+                    string querySUM = "select SUM(basic_pay) from employee_payroll;";
+                    string queryAVG = "select AVG(basic_pay) from employee_payroll;";
+                    string queryCOUNT = "select COUNT(basic_pay) from employee_payroll;";
+                    string queryMIN = "Select MIN(basic_pay) from employee_payroll";
+                    string queryMAX = "Select MAX(basic_pay) from employee_payroll ";
+
+                    SqlCommand cmd = new SqlCommand(querySUM, this.connection);
+                    this.connection.Open();
+                    SqlDataReader reader = cmd.ExecuteReader();
+                    if (reader.HasRows)
+                    {
+                        while (reader.Read())
+                        {
+                           decimal Sum = reader.GetDecimal(0);
+                            Console.WriteLine("Sum of Salary " + Sum );
+                        }
+                        
+                    }
+                    else
+                    {
+                        System.Console.WriteLine("No data found");
+                       
+                    }  
+                }
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e);
+                
+            }
+            finally
+            {
+                this.connection.Close();
+            }
+        }
+
     }
 
 }
