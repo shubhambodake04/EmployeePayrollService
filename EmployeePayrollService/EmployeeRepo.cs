@@ -173,9 +173,9 @@ namespace EmployeePayrollService
                     string queryMIN = "Select MIN(basic_pay) from employee_payroll";
                     string queryMAX = "Select MAX(basic_pay) from employee_payroll ";
 
-                    SqlCommand cmd = new SqlCommand(querySUM, this.connection);
+                    SqlCommand command = new SqlCommand(querySUM, this.connection);
                     this.connection.Open();
-                    SqlDataReader reader = cmd.ExecuteReader();
+                    SqlDataReader reader = command.ExecuteReader();
                     if (reader.HasRows)
                     {
                         while (reader.Read())
